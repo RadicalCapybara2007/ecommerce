@@ -1,0 +1,12 @@
+spring.application.name=ecommerce
+
+# Configuración de PostgreSQL (Reemplaza con tus credenciales)
+spring.datasource.url=jdbc:postgresql://localhost:5432/TU_BASE_DE_DATOS
+spring.datasource.username=TU_USUARIO
+spring.datasource.password=TU_PASSWORD
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# Hibernate (JPA)
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.show-sql=true
